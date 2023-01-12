@@ -7,17 +7,24 @@ ul  {
 
 li {
     float: left;
-    
+    padding: 14px 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
 }
 
 .topnav {
-    background-color: #ffffff;
+    background-color: #111111;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
-
+  
 .topnav a {
     float: left;
-    color: #111111;
+    color: #ff1801;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,17 +32,16 @@ li {
 }
   
 .topnav a:hover {
-    background-color: #111111;
-    color: #ff1801;
+    background-color: #ff1801;
+    color: rgb(255, 246, 246);
 }
   
 .topnav a.active {
-    background-color: #111111;
-    color: #ff1801;
+    background-color: #04AA6D;
+    color: white;
 }
 
-.topnav img{
+img{
     width: 10%;
-    position: absolute;
     left: 0px;
 }
