@@ -74,7 +74,7 @@ img{
 
 .column {
     float: left;
-    width: 23%;
+    width: 21%;
     padding: 10px;
 }
   
@@ -101,17 +101,21 @@ img{
 
 #imgtext {
     position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 40px;
+    bottom: 3%;
+    left: 1%;
+    color: #ff1801;
+    font-size: 4vw;
 }
 
 .closebtn {
     position: absolute;
     top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
+    left: 47%;
+    color: #ff1801;
+    font-size: 4vw;
     cursor: pointer;
+}
+
+style{
+    background: #111111;
 }
