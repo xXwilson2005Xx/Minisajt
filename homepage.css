@@ -119,8 +119,8 @@ img{
 
 .media{
     background-color: #ff1801;
-    bottom: 0;
-    position: fixed;
+    margin-top: 25.2%;
+    position: relative;
     width: 100vw;
     height: 10vh;
 }
