@@ -75,3 +75,26 @@ img{
 body{
     background-color: #111111;
 }
+
+.media{
+    background-color: #ff1801;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+}
+
+.fa-youtube{
+    color: #111111;
+    margin-left: 42vw;
+}
+
+.fa-instagram{
+    color: #111111;
+    margin-left: 1vw;
+}
+
+.fa-twitter{
+    color: #111111;
+    margin-left: 1vw;
+}

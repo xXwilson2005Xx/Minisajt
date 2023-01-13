@@ -109,13 +109,33 @@ img{
 
 .closebtn {
     position: absolute;
-    top: 10px;
-    left: 47%;
+    top: 1%;
+    left: 66%;
     color: #ff1801;
-    font-size: 4vw;
+    font-size: 5vw;
     cursor: pointer;
 }
 
-style{
-    background: #111111;
+
+.media{
+    background-color: #ff1801;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+}
+
+.fa-youtube{
+    color: #111111;
+    margin-left: 42vw;
+}
+
+.fa-instagram{
+    color: #111111;
+    margin-left: 1vw;
+}
+
+.fa-twitter{
+    color: #111111;
+    margin-left: 1vw;
 }
