@@ -33,7 +33,7 @@ li {
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     border-style: solid;
     border-color:#84433d00;
     border-width: 5px;
@@ -97,4 +97,38 @@ body{
 .fa-twitter{
     color: #111111;
     margin-left: 1vw;
+}
+
+.dyno{
+    margin-left: 5%;
+    border-color: #ff1801;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.dynotext{
+    color: aliceblue;
+    width: 15%;
+    padding-left: 10px;
+    border-color: #ff1801;
+    border-width: 4px;
+    border-style: solid;
+    float: left;
+}
+
+.dsgn{
+    margin-left: 15%;
+    border-color: #ff1801;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.dsgntext{
+    color: aliceblue;
+    width: 15%;
+    padding-left: 10px;
+    border-color: #ff1801;
+    border-width: 4px;
+    border-style: solid;
+    float: right;
 }

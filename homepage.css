@@ -18,6 +18,11 @@ li {
     float: left;
 }
 
+.navbar{
+    position: sticky;
+    height: 25vh;
+}
+
 .topnav {
     background-color: #111111;
     overflow: hidden;
@@ -33,7 +38,7 @@ li {
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     border-style: solid;
     border-color:#84433d00;
     border-width: 5px;
@@ -74,8 +79,13 @@ img{
 
 .column {
     float: left;
-    width: 21%;
-    padding: 10px;
+    width: 23%;
+    padding: 5px;
+}
+
+.column img{
+    width: 100%;
+
 }
   
 
@@ -95,7 +105,7 @@ img{
 }
 
 .container {
-    position: relative;
+    position: absolute;
     display: none;
 }
 
@@ -119,23 +129,26 @@ img{
 
 .media{
     background-color: #ff1801;
-    margin-top: 25.2%;
-    position: relative;
+    margin-top: 27.5%;
+    position: absolute;
+    bottom: 0;
     width: 100vw;
     height: 10vh;
 }
 
+.menu{
+    margin-left: 42%;
+
+}
+
 .fa-youtube{
     color: #111111;
-    margin-left: 42vw;
 }
 
 .fa-instagram{
     color: #111111;
-    margin-left: 1vw;
 }
 
 .fa-twitter{
     color: #111111;
-    margin-left: 1vw;
 }

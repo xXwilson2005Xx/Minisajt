@@ -12,14 +12,13 @@
 <body style="background-color: #111111;">
    
 
-   <ul class="topnav">
+<ul class="topnav">
 
-      <li><a href="Homepage.html"><img src="F1_logo_PNG1.png" alt="F1-LOGO.png"></a></li>
-      <li><a href="Cars.html"><p>Cars</p></a></li>
-      <li><a href="BOAT.html"><p>Best Of All Time</p></a></li>  
+  <li><a href="Homepage.html"><img id="logo" src="F1_logo_PNG1.png" alt="F1-LOGO.png"></a></li>
+  <li><a href="Cars.html"><p>Cars</p></a></li>
+  <li><a href="BOAT.html"><p>Best Of All Time</p></a></li>  
 
-   </ul>  
-
+</ul> 
 
 <div class="row">
    <div class="column">
@@ -29,7 +28,7 @@
      <img src="20220320F1-0183.jpg" alt="Bharain GP" onclick="myFunction(this);">
    </div>
    <div class="column">
-     <img src="f1-3.jpg" alt="Silverston GP" onclick="myFunction(this);">
+     <img src="f1-calendar.jpg" alt="" onclick="myFunction(this);">
    </div>
    <div class="column">
      <img src="f1-4.jpg" alt="All the drivers with 2022 Car" onclick="myFunction(this);">
@@ -38,7 +37,7 @@
  
  <div class="container">
 
-   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+   <span onclick="this.parentElement.style.display='none';var footer=document.getElementsByClassName('media')[0];footer.style.display='block';" class="closebtn">&times;</span>
  
    <img id="expandedImg" style="width:70%">
  
@@ -52,6 +51,8 @@
       expandImg.src = imgs.src;
       imgText.innerHTML = imgs.alt;
       expandImg.parentElement.style.display = "block";
+      var footer = document.getElementsByClassName("media")[0];
+      footer.style.display = "none";
    }
 </script>
 
